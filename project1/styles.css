@@ -19,6 +19,12 @@ body{background-color: whitesmoke;
         padding:30px;
 }
 
+.analysis {
+    position: absolute;
+    z-index:5000;
+    top: 343px;
+    left: 470px;
+}
 
 .headings{
     width:600px;
@@ -31,6 +37,8 @@ body{background-color: whitesmoke;
 }
 
 
+
+/* main heading and subheading */
 .main-heading{
     font-family:"linotype-didot", serif;
     color:#000000;
@@ -53,9 +61,10 @@ body{background-color: whitesmoke;
     font-size:28px;
 }
 
+/* main content container*/
 .main-content-container{
     width:600px;
-    max-height:450;
+    max-height:470;
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
@@ -90,20 +99,23 @@ body{background-color: whitesmoke;
     
 }
 
-.button-container{
+#button{
     background-color:black;
     border-radius:50%;
     height:50px;
     width:50px;
-    align-items: center
+    align-items: center;
+    margin-top:-89;
+    z-index: 100000
+    
 }
-
-.analysis{
+    
+.analysis-text{
     font-family:"linotype-didot";
     color:black;
     font-size:12px;
     width:80;
-    margin-top:50;
+    margin-top:60;
     text-align: center;
     margin-left:-10
     
@@ -115,9 +127,11 @@ body{background-color: whitesmoke;
     font-style:roman;
     font-size:500px;
     color:#facdd7;
-    margin-top:-200px;
-    margin-left:75px
+    margin-top:-550px;
+    margin-left:145px
 }
+
+
 
 .circle-elements{
     display:flex;
@@ -198,6 +212,7 @@ background-color:gainsboro;
     color:#000000;
 }
 
+/* bottom row container*/
 .bottom-row-container{
     width:600px;
     display:flex;
@@ -205,6 +220,7 @@ background-color:gainsboro;
     
 }
 
+/* sources container*/
 .vertical-line-3{
     height:115px;
     border-right: 5px dotted #facdd7;
@@ -233,6 +249,7 @@ background-color:gainsboro;
 }
 
 
+/* photo title container*/
 .photo-title-container{
     display:flex;
     flex-flow: row-reverse;
