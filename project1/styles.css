@@ -55,7 +55,7 @@ body{background-color: whitesmoke;
 
 .main-content-container{
     width:600px;
-    max-height:500;
+    max-height:450;
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
