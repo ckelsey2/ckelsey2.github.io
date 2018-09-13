@@ -22,8 +22,8 @@ body{background-color: whitesmoke;
 .analysis {
     position: absolute;
     z-index:5000;
-    top: 343px;
-    left: 470px;
+    top: -201px;
+    left: 132px;
 }
 
 .headings{
@@ -95,7 +95,8 @@ body{background-color: whitesmoke;
     display:flex;
     flex-flow: column;
     margin-top:300;
-    margin-left:-60
+    margin-left:-60;
+    position:relative
     
 }
 
@@ -140,7 +141,7 @@ body{background-color: whitesmoke;
     
 }
 .circle-element-1{ 
-background-color:grey;
+background-color:#c8c8c8;
     border-radius:50%;
     height:75px;
     width:75px;
@@ -149,7 +150,7 @@ background-color:grey;
 }
 
 .circle-element-2{ 
-background-color:darkgrey;
+background-color:#d3d3d3;
     border-radius:50%;
     height:75px;
     width:75px;
@@ -159,7 +160,7 @@ background-color:darkgrey;
 
 
 .circle-element-3{ 
-background-color:silver;
+background-color:#dcdcdc;
     border-radius:50%;
     height:75px;
     width:75px;
@@ -168,7 +169,7 @@ background-color:silver;
 }
 
 .circle-element-4{ 
-background-color:lightgray;
+background-color:#e8e8e8;
     border-radius:50%;
     height:75px;
     width:75px;
@@ -177,7 +178,7 @@ background-color:lightgray;
 }
 
 .circle-element-5{ 
-background-color:gainsboro;
+background-color:#f5f5f5;
     border-radius:50%;
     height:75px;
     width:75px;
