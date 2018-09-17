@@ -110,6 +110,11 @@ body{background-color: whitesmoke;
     z-index: 100000
     
 }
+
+#button:hover{
+    background-color:deeppink
+    
+}
     
 .analysis-text{
     font-family:"linotype-didot";
@@ -141,7 +146,7 @@ body{background-color: whitesmoke;
     
 }
 .circle-element-1{ 
-background-color:#c8c8c8;
+background-color:#dcdcdc;
     border-radius:50%;
     height:75px;
     width:75px;
@@ -150,7 +155,7 @@ background-color:#c8c8c8;
 }
 
 .circle-element-2{ 
-background-color:#d3d3d3;
+background-color:#e8e8e8;
     border-radius:50%;
     height:75px;
     width:75px;
@@ -160,7 +165,7 @@ background-color:#d3d3d3;
 
 
 .circle-element-3{ 
-background-color:#dcdcdc;
+background-color:#e8e8e8;
     border-radius:50%;
     height:75px;
     width:75px;
@@ -169,7 +174,7 @@ background-color:#dcdcdc;
 }
 
 .circle-element-4{ 
-background-color:#e8e8e8;
+background-color:#f5f5f5;
     border-radius:50%;
     height:75px;
     width:75px;
