@@ -1,0 +1,285 @@
+*{
+    margin:0px;
+    
+}
+
+body{background-image: url(assets/info-rawpixel-645297-unsplash.jpg);
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: auto;
+    margin-top:auto;
+}
+
+.container {
+    width:768px;
+    height:2000px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+/*MAIN HEADING TEXT*/
+
+.main-heading-container{
+    background-image:url(assets/headerbackground.jpg);
+    height:400px;
+     display:flex;
+    flex-direction: column;
+    
+}
+
+.big-heading{
+    font-family:"rosewood-std-fill";
+    color:black;
+    font-size: 72px;
+    font-kerning: auto;
+    text-align: left;
+    height:90;
+    margin:30;
+    padding:20;
+    position:relative;
+        margin-top:160;
+        margin-left:100
+    
+}
+
+.big-heading-second-line{
+    font-family:"rosewood-std-fill";
+    color:black;
+    font-size: 32px;
+    font-kerning: auto;
+}
+
+.information-section{
+
+    height:190;
+    padding:30;
+    font-family: "Garamond";
+    font-size:14px;
+    background-image:url(assets/lightwoodswirl.jpg);
+    text-align:left;
+    position:relative;
+      
+}
+
+.information-section-text{
+    padding:30;
+    position:relative;
+        margin-top:-40;
+            
+    animation-name:slidein;
+    animation-duration:2s;
+    animation-timing-function:ease-in-out
+    
+}
+.instructions-section{
+    height:20px;
+    color:white;
+    padding:20;
+    background-image:url(assets/cropped-rawpixel-567028-unsplash.jpg);
+    font-family: "rosewood-std-fill";
+    font-size:20;
+    text-align: center;
+    position:relative;
+        margin-top:30;
+        margin-left:-5
+    
+
+    
+}
+
+/*ILLUSTRATIONS AND ACTIONS*/
+
+
+.action-container{
+    background-image: url(assets/Floralbackground.jpg);
+    height:1850;
+    position: relative;
+        margin-top:30
+
+    
+}
+
+
+.green-tea-illustration{
+    height:400;
+    width:400;
+    background-image: url(assets/cropped-rawpixel-567028-unsplash.jpg);
+    border-radius:50%;
+    margin:30;
+    
+}
+
+.green{
+    position:relative;
+        margin-left:30;
+        margin-top:30
+}
+
+.green-tea-pour{
+    margin-left:130;
+
+}
+
+.green-tea-tilted{
+    height:470;
+    width:470;
+    position:relative;
+        margin-top:-470;
+    opacity:0
+
+    
+}
+#green-tea-pour-button{
+    background-color:darkseagreen;
+    font-family:"rosewood-std-fill";
+    font-size:20;
+    position:relative;
+        margin-left:60;
+        margin-top:-20
+}
+
+
+.green-tea-information-container{
+    height:280;
+    width:370;
+    background-color: antiquewhite;
+    position:relative;
+    margin-left:330;
+    margin-top:-396 ;
+    padding:20;
+    opacity:0
+
+}
+
+    
+    
+
+
+.white-tea-illustration{
+    height:400;
+    width:400;
+    background-image: url(assets/cropped-rawpixel-567028-unsplash.jpg);
+    border-radius:50%;
+    margin:30;
+    position:relative;
+    margin-left:340;
+   
+}
+
+.white{
+    position:relative;
+        margin-top:35;
+        margin-left:35;
+}
+
+.white-tea-tilted{
+    position:relative;
+        margin-top:-430;
+        margin-left:320;
+    opacity:0
+}
+
+#white-tea-pour-button{
+    background-color:mintcream;
+    font-family:"rosewood-std-fill";
+    font-size:20;
+    position:relative;
+        margin-left:500;
+        margin-top:-0
+}
+
+.white-tea-information-container{
+    height:280;
+    width:370;
+    background-color: antiquewhite;
+    position:relative;
+    margin-left:30;
+    margin-top:-340;
+    padding:20;
+    opacity:0;
+}
+
+
+
+.black-tea-illustration{
+    height:280;
+    width:280;
+    background-image: url(assets/cropped-rawpixel-567028-unsplash.jpg);
+    margin:30;
+    border-radius:50%;
+    position:relative;
+    
+}
+
+
+
+.black-tea-information-container{
+    height:280;
+    width:370;
+    background-color: antiquewhite;
+    position:relative;
+    margin-top:-310;
+    margin-left:330;
+    padding:20;
+    opacity:0
+    
+}
+
+
+
+
+.oolong-tea-illustration{
+    height:280;
+    width:280;
+    background-image:url(assets/cropped-rawpixel-567028-unsplash.jpg);
+    margin:30;
+    border-radius:50%;
+    position:relative;
+    margin-left:450;
+}
+
+.oolong-tea-information-container{
+    height:280;
+    width:370;
+    background-color: antiquewhite;
+    position:relative;
+    margin-left:30;
+    margin-top:-310;
+    padding:20;
+    opacity:0
+}
+
+h1{
+    font-family: "rosewood-std-fill";
+    font-size:28px
+    }
+
+h2 {
+    font-family:"rosewood-std-fill";
+    font-size:20px
+}
+
+p{
+    font-family:"garamond";
+    font-size:16px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
