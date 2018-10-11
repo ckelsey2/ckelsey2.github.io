@@ -1,0 +1,204 @@
+*{
+    margin:0px;
+    
+}
+
+body{background-color:grey);
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: auto;
+    margin-top:auto;
+}
+
+.container {
+    width:768px;
+    height:100px;
+    background-color:lightgray;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+/*MAIN HEADING TEXT*/
+
+.main-heading-container{
+    background-color:aqua;
+    height:450px;
+    padding:5;
+    
+}
+
+.big-heading{
+    font-family:"rosewood-std-fill";
+    color:white;
+    font-size: 50px;
+    font-kerning: auto;
+    text-align: center;
+    height:90;
+    background-color:blue;
+    margin:30;
+    padding:20
+    
+}
+
+.big-heading-second-line{
+    font-family:"rosewood-std-fill";
+    color:white;
+    font-size: 26px;
+    font-kerning: auto;
+}
+
+.information-section{
+    background-color:azure;
+    height:140px;
+    margin:30;
+    padding:20;
+    font-family: "Garamond";
+    font-size:14px;
+    
+}
+.instructions-section{
+    height:40px;
+    width:570;
+    background-color:blueviolet;
+    color:white;
+    margin:30;
+    padding:15;
+    font-family: "rosewood-std-fill";
+    font-size:20
+    
+}
+
+/*ILLUSTRATIONS AND ACTIONS*/
+
+
+.action-container{
+    background-color: burlywood;
+    height:1400;
+    padding:5;
+
+    
+}
+
+
+.green-tea-illustration{
+    height:280;
+    width:280;
+    background-color: deeppink;
+    border-radius:50%;
+    margin:30;
+    position:relative;
+    margin-left:30;
+    margin-top:30;
+}
+
+
+#green-tea-information-container{
+    height:280;
+    width:370;
+    background-color:palevioletred;
+    position:relative;
+    margin-left:340;
+    margin-top: -330;
+    padding:20
+}
+
+
+.white-tea-illustration{
+    height:280;
+    width:280;
+    background-color: purple;
+    border-radius:50%;
+    margin:30;
+    position:relative;
+    margin-left:450;
+    margin-top:30
+}
+
+#white-tea-information-container{
+    height:280;
+    width:370;
+    background-color: mediumpurple;
+    position:relative;
+    margin-left:30;
+    margin-top:-320;
+    padding:20
+}
+
+
+.black-tea-illustration{
+    height:280;
+    width:280;
+    background-color: green;
+    margin:30;
+    border-radius:50%;
+    position:relative;
+    margin-top:
+    
+}
+
+#black-tea-information-container{
+    height:280;
+    width:370;
+    background-color: greenyellow;
+    position:relative;
+    margin-top:-320;
+    margin-left:340;
+    padding:20
+    
+}
+
+
+.oolong-tea-illustration{
+    height:280;
+    width:280;
+    background-color:blue;
+    margin:30;
+    border-radius:50%;
+    position:relative;
+    margin-left:450;
+}
+
+#oolong-tea-information-container{
+    height:280;
+    width:370;
+    background-color:lightblue;
+    position:relative;
+    margin-left:30;
+    margin-top:-310;
+    padding:20
+}
+
+h1{
+    font-family: "rosewood-std-fill";
+    font-size:24px
+    }
+
+h2 {
+    font-family:"rosewood-std-fill";
+    font-size:18px
+}
+
+p{
+    font-family:"garamond";
+    font-size:14px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

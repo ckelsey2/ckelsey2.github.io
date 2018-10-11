@@ -1,0 +1,12 @@
+@keyframes spin{
+    0%{
+    transform:rotateZ(0);
+    }
+    100%{
+        transform:rotateZ(180deg)
+    }
+}
+
+.green-tea-illustration{
+    animation: spin 10s linear infinite
+}
