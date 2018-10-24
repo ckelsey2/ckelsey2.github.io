@@ -1,0 +1,71 @@
+.container{
+    background-image: url(assets/Floralbackground.jpg);
+    height:1850px;
+    width:764px;
+  
+        margin-top:30
+
+    
+}
+
+.white-tea{
+    background-color:navajowhite;
+    position:relative;
+    width:764px;
+    
+}
+
+h1{
+    font-family: "rosewood-std-fill";
+    font-size:28px
+    }
+
+h2 {
+    font-family:"rosewood-std-fill";
+    font-size:20px
+}
+
+p{
+    font-family:"garamond";
+    font-size:16px
+}
+
+.buttons{
+    background-color:cadetblue;
+    font-family: "rosewood-std-fill";
+    font-size:14;
+    z-index:40;   
+}
+
+
+
+
+
+
+.information-container {
+    /*    height: 280px;*/
+    width: 380px;
+    background-color: antiquewhite;
+    padding: 20px;
+    opacity: 0;
+    z-index: 3;
+}
+
+.tea-cups-2{
+    position:absolute;
+        left:380px;
+        top:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

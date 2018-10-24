@@ -1,0 +1,355 @@
+*{
+    margin:0px;
+    
+}
+
+body{background-image: url(assets/cropped-rawpixel-645297-unsplash.jpg);
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: auto;
+    margin-top:auto;
+}
+
+.container {
+    width:768px;
+    height:2000px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+/*MAIN HEADING TEXT*/
+
+.main-heading-container{
+    background-image:url(assets/headerbackground.jpg);
+    height:400px;
+     display:flex;
+    flex-direction: column;
+    
+}
+
+.big-heading{
+    font-family:"rosewood-std-fill";
+    color:black;
+    font-size: 72px;
+    font-kerning: auto;
+    text-align: center;
+    height:80px;
+    margin:30px;
+    padding:20px;
+    position:relative;
+        margin-top:190px;
+    
+}
+
+.big-heading-second-line{
+    font-family:"rosewood-std-fill";
+    color:black;
+    font-size: 32px;
+    font-kerning: auto;
+}
+
+.information-section{
+
+    height:275px;
+    padding:30px;
+    font-family: "Garamond";
+    font-size:14px;
+    background-color:white;
+    text-align:left;
+    position:relative;
+        margin-top:-40px;
+      
+}
+
+.information-section-text{
+    padding:30px;
+    position:relative;
+        margin-top:-40px;
+            
+    animation-name:slidein;
+    animation-duration:2s;
+    animation-timing-function:ease-in-out
+    
+}
+.instructions-section{
+    height:20px;
+    width:730px;
+    color:black;
+    padding:20px;
+    background-color:white;
+    font-family: "rosewood-std-fill";
+    font-size:20px;
+    text-align: center;
+    position:relative;
+        margin-top:40px;
+        margin-bottom:40px;
+    
+
+    
+}
+
+/*ILLUSTRATIONS AND ACTIONS*/
+
+
+.action-container{
+    
+    height:1850px;
+    width:768px;
+    position: relative;
+        margin-top:30px
+
+    
+}
+
+h1{
+    font-family: "rosewood-std-fill";
+    font-size:24px
+    }
+
+h2 {
+    font-family:"rosewood-std-fill";
+    font-size:18px
+}
+
+p{
+    font-family:"garamond";
+    font-size:16px
+}
+
+
+
+
+
+/* GREEN TEA Pour Animations */
+
+.green-tea{
+    margin-bottom:80px;
+    background-color:white;
+    height:470px
+}
+
+.buttons{
+    background-color:lightsteelblue;
+    font-family: "rosewood-std-fill";
+    font-size:14px;
+    position:relative;
+    z-index:40;   
+}
+
+#rotate-one{
+    top:20px;
+    left:20px
+}
+
+.relative{
+    position:relative;
+}
+
+
+
+.visible {
+    opacity: 1 !important;
+}
+
+.invisible {
+    opacity: 0 !important;
+}
+
+.tea-cups {
+    position: absolute;
+    top:30px;
+}
+
+
+#one-cup,
+#two-cup {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+}
+
+#one-cup {
+}
+
+#two-cup {
+    opacity:0;
+}
+
+.information-container {
+    /*    height: 280px;*/
+    width: 380px;
+    background-color: antiquewhite;
+    position: absolute;
+    padding: 20px;
+    opacity: 0;
+    z-index: 3;
+}
+
+#green-tea-information{
+    top: 117px;
+    left: 315px;
+}
+
+.white-tea{
+    position:relative;
+    top:-40px;
+    background-color:white;
+    height:470px
+}
+
+#rotate-two{
+    left:640px;
+    top:20px
+    
+}
+#green-tea-close{
+    position:relative;
+    z-index:41;
+}
+
+.close{
+    background-color:white;
+    font-family: "rosewood-std-fill"
+}
+
+#white-tea-information{
+    top:129px;
+    left:38px
+    
+}
+
+.tea-cups-2{
+    position:absolute;
+        left:380px;
+        top:30px;
+}
+
+#three-cup,
+#four-cup {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#four-cup {
+
+    opacity:0;
+}
+
+
+.black-tea{
+    position:relative;
+    
+    background-color:white;
+    height:470px
+}
+#rotate-three{
+    position:absolute;
+        left:20px;
+        top:20px;
+}
+.tea-cups-3{
+    position:absolute;
+    left:20px;
+    top:-10px;
+}
+
+#five-cup,
+#six-cup {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#six-cup {
+
+    opacity:0;
+}
+
+#black-tea-information{
+    position:absolute;
+    left:300px;
+    top:130px;
+}
+
+.oolong-tea{
+    position:relative;
+        margin-top:40px;
+    background-color:white;
+    height:470px;
+    
+}
+
+#rotate-four{
+    position:absolute;
+    left:640px;
+    top:20px;
+}
+
+.tea-cups-4{
+    position:absolute;
+    left:385px;
+    top:30
+}
+
+#seven-cup,
+#eight-cup {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#eight-cup {
+
+    opacity:0;
+}
+
+#oolong-tea-information{
+    top:150px;
+    left:30px;
+    
+}
+
+.footer{
+    width:768px;
+    height:238px;
+    background-image:url(assets/footerbackground);
+    position:relative;
+        margin-top:120
+}
+
+/* ANIMATIONS */
+
+.other {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+
+.transform {
+  -webkit-transition: all 2s ease;  
+  -moz-transition: all 2s ease;  
+  -o-transition: all 2s ease;  
+  -ms-transition: all 2s ease;  
+  transition: all 2s ease;
+}
+
+
+.animation {
+    animation: rotation 2.5s infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+}
+
+    100% {
+        transform: rotate(360deg);
+}
