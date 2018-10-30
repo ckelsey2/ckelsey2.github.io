@@ -16,6 +16,7 @@ $(document).ready(function (){
         $("#two-cup").toggleClass("rotated");
         $("#two-cup").toggleClass("visible");
         $('#green-tea-information').toggleClass("visible");
+        $("#rotate-one").toggleClass("visible");
         });
 });
 

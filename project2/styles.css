@@ -46,13 +46,13 @@ body{background-image: url(assets/cropped-rawpixel-645297-unsplash.jpg);
 .big-heading-second-line{
     font-family:"rosewood-std-fill";
     color:black;
-    font-size: 32px;
+    font-size: 36px;
     font-kerning: auto;
 }
 
 .information-section{
 
-    height:275px;
+    height:405px;
     padding:30px;
     font-family: "Garamond";
     font-size:14px;
@@ -73,22 +73,7 @@ body{background-image: url(assets/cropped-rawpixel-645297-unsplash.jpg);
     animation-timing-function:ease-in-out
     
 }
-.instructions-section{
-    height:20px;
-    width:730px;
-    color:black;
-    padding:20px;
-    background-color:white;
-    font-family: "rosewood-std-fill";
-    font-size:20px;
-    text-align: center;
-    position:relative;
-        margin-top:40px;
-        margin-bottom:40px;
-    
 
-    
-}
 
 /*ILLUSTRATIONS AND ACTIONS*/
 
@@ -105,17 +90,20 @@ body{background-image: url(assets/cropped-rawpixel-645297-unsplash.jpg);
 
 h1{
     font-family: "rosewood-std-fill";
-    font-size:24px
+    font-size:24px;
+    padding:5px;
     }
 
 h2 {
     font-family:"rosewood-std-fill";
-    font-size:18px
+    font-size:18px;
+    padding:5px;
 }
 
 p{
     font-family:"garamond";
-    font-size:16px
+    font-size:18px;
+    padding:10px
 }
 
 
@@ -127,20 +115,30 @@ p{
 .green-tea{
     margin-bottom:80px;
     background-color:white;
-    height:470px
+    height:680px
 }
 
 .buttons{
     background-color:lightsteelblue;
     font-family: "rosewood-std-fill";
-    font-size:14px;
+    font-size:18px;
     position:relative;
-    z-index:40;   
+    z-index:40;
+}
+
+.close{
+    font-size:24px;
+    background-color:black;
+    color:black;
+
 }
 
 #rotate-one{
     top:20px;
-    left:20px
+    left:20px;
+    position:relative;
+        margin-top:;
+        margin-left:120
 }
 
 .relative{
@@ -188,7 +186,7 @@ p{
 }
 
 #green-tea-information{
-    top: 117px;
+    top: 145px;
     left: 315px;
 }
 
@@ -196,11 +194,11 @@ p{
     position:relative;
     top:-40px;
     background-color:white;
-    height:470px
+    height:665px
 }
 
 #rotate-two{
-    left:640px;
+    left:460px;
     top:20px
     
 }
@@ -242,13 +240,12 @@ p{
 
 .black-tea{
     position:relative;
-    
     background-color:white;
-    height:470px
+    height:625px
 }
 #rotate-three{
     position:absolute;
-        left:20px;
+        left:165px;
         top:20px;
 }
 .tea-cups-3{
@@ -279,20 +276,20 @@ p{
     position:relative;
         margin-top:40px;
     background-color:white;
-    height:470px;
+    height:690px;
     
 }
 
 #rotate-four{
     position:absolute;
-    left:640px;
+    left:460px;
     top:20px;
 }
 
 .tea-cups-4{
     position:absolute;
     left:385px;
-    top:30
+    top:40px;
 }
 
 #seven-cup,
@@ -308,7 +305,7 @@ p{
 }
 
 #oolong-tea-information{
-    top:150px;
+    top:160px;
     left:30px;
     
 }
@@ -318,7 +315,7 @@ p{
     height:238px;
     background-image:url(assets/footerbackground);
     position:relative;
-        margin-top:120
+        margin-top:880
 }
 
 /* ANIMATIONS */
