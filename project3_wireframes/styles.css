@@ -56,9 +56,9 @@
         
 }
 
-#nav-middle{
+#nav-section{
     width:750px;
-    height:400px;
+    height:250px;
 }
 
 #nav-middle-title{
@@ -71,20 +71,20 @@
     text-align:center
 }
 
-
-#nav-middle-label-1{
-     width:600px;
-    height:100px;
-    background-color: grey;
-    margin:40 75 0 75;
+.nav-middle-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-#nav-middle-label-2{
-     width:600px;
+.nav-middle{
+     width:150px;
     height:100px;
     background-color: grey;
-    margin:40 75 0 75;
+    margin:30 0 0 0;
+    padding:20;
 }
+
 
 
 
