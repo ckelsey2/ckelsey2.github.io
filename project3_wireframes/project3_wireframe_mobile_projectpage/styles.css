@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+   width: 750; 
+    height:3700px;
+    background-color:floralwhite
+}
+
+
+#nav-top {
+  width: 650px;
+  height: 95px;
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin:50;
+}
+
+#nav-logo{
+  background-color:black;
+    display: flex;
+    flex-direction: row;
+    width:400;
+  height: 95px;
+    
+}
+
+
+
+#nav-toggle{
+    display: flex;
+    flex-direction: column;
+    background-color:chartreuse;
+    height:95px;
+    width:95px;
+}
+
+.cover-photo{
+    width:750px;
+    height:400px;
+    background-color:cadetblue
+}
+
+.cover-photo-text{
+    width:320px;
+    height:320px;
+    position:absolute;
+        margin-top:300;
+        margin-left:400;
+    font-size:30px;
+        
+}
+
+
+
+.text-1{
+    width:670px;
+    height:400px;
+    background-color:yellow;
+    margin:40px;
+    padding:40px
+}
+
+
+
+
+
+.two-block-images{
+    display:flex;
+    flex-direction: row;
+    
+    
+}
+
+.block-1{
+    width:250px;
+    height:250px;
+    background-color: aqua;
+    margin: 0 100 0 70;
+}
+
+.block-2{
+    width:250px;
+    height:250px;
+    background-color: aqua;
+    margin: 0 50 0 0
+}
+
+
+
+.text-2{
+    width:670px;
+    height:200px;
+    background-color:yellow;
+    margin:40px;
+    padding:40
+}
+
+
+
+.image-1{
+    width:670px;
+    height:300px;
+    background-color:blue;
+    margin:40px;
+}
+
+.image-2{
+    width:670px;
+    height:300px;
+    background-color:blue;
+    margin:40px;
+}
+
+
+.image-3{
+    width:670px;
+    height:400px;
+    background-color:blue;
+    margin:40px;
+}
+
+
+
+.text-3{
+    width:670px;
+    height:200px;
+    background-color:yellow;
+    margin:40px;
+    padding:20px;
+}
+
+.image-4{
+    width:670px;
+    height:300px;
+    background-color:blue;
+    margin:40px;
+}
+
+.line{
+    width:670px;
+    height:10px;
+    background-color:black;
+    margin:40px
+}
+
+.footer-text {
+    margin:40px;
+    
+}
+
+.footer-images{
+    display:flex;
+    flex-direction: row;
+      
+}
+
+
+
+.footer-image-1{
+    width:300px;
+    height:250px;
+    background-color: aqua;
+    margin:0 40
+  
+
+}
+
+.footer-image-2{
+    width:300;
+    height:250px;
+    background-color: aqua;
+    margin:0 40
+    
+}
+
+
+
+
+
+
