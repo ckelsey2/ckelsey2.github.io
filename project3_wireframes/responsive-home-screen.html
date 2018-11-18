@@ -2,93 +2,159 @@
     
 <html lang='en'>
   <head>
-    
-<meta name="viewport" content="width=device-width, initial-scale=1">
       
-    <link rel='stylesheet' href='styles.css'/>
+    <meta charset='UTF-8' />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       
+    <link rel='stylesheet' href='homepage-styles.css'/>
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       
   </head>
-  <body>
+    
+    
+<body>
       
-<div class='page'>
+<header>
+    <div class="nav-bar">
+            <nav class="topnav" id="myTopnav">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div class="main-nav">
+                    <a href="#home">Home</a>
+                    
+                    <a href="#information">Resume</a>
+                    <a href="#about">About</a>
+                </div>
+            </nav>
+        </div>
+        <div class="site-title">
+        <img src="assets/Logo_final_color.png">
+        </div>
+    </header>
 
     
     
-    
-    <div id='nav-top'>
-    <h1 id='nav-logo'>
-        
-        <div id='logo'>
-        </div>
-        
-        <div id='wordmark'>
-        </div>
-        
-        </h1>
-        
-    <div id='nav-toggle'></div>
-        
-        
-    </div>
-    
-    <div class='cover-photo'>
-        
-        <div class='cover-photo-text'> This is text about an image. text text fjkl dsafj asldkfj dslkfj sldakfjlasdkfj lsdkj oijfklsa dj fjweoi sfjdlk wioe fjsdl.
-        </div>
-    </div>
-    
-    
-    
-    <div id='nav-section'>
-    <h1 id='nav-middle-title'> WORK</h1>
-        
-        <div class='nav-middle-bar'>
-    <nav class='nav-middle'> 
-        
-        <a href="project3_wireframe_mobile_projectpage/responsive-project-screen.html"> Project 1 </a>
-    
-        </nav>
-            
-            <nav class='nav-middle'> 
-             <a href="project3_wireframe_mobile_projectpage/responsive-project-screen.html"> Project 2 </a>
-            </nav>
-            
-            <nav class='nav-middle'> 
-             <a href="project3_wireframe_mobile_projectpage/responsive-project-screen.html"> Project 3 </a>
-            </nav>
-            
-            <nav class='nav-middle'> 
-             <a href="project3_wireframe_mobile_projectpage/responsive-project-screen.html"> Project 4 </a>
-            </nav>
-        
-        
-        
 
-        </div>
+    <section class="page">
         
-        
-        
-    </div>
+    <main>
+            
+        <section class='cover-photo'>
+            
+             
+            <div class="me-photo"> 
+            <img src="assets/IMG_1408.jpeg">
+
+            
+            </div>
+            
+
+            <div class ="me-text"> 
+                <h2> MULTI-TALENT STUDENT, DESIGNER; STRIVING TO CREATE, DESIGN, & IMPACT.
+                </h2>
+                
+                <h2> EXPLORE.
+                </h2>
+                
+            </div>
+
+        </section>
+    
+    
+
     
     
     
     <section class='content'>
         
-        <div class='project-1'>
+        <div class='hov project-1'>
+            
+         
+            
+            <a href="project3_wireframe_mobile_projectpage/responsive-project-screen.html">
+            
+            <img  src="assets/portfolioimage.jpeg">
+        <h3> PROJECT TITLE</h3>
+            
+            
+            </a>
+            
+            
         </div>
-        <div class='project-2'>
+        <div class='hov project-2'>
+            <img src="assets/portfolioimage.jpeg">
+            
+            <h3> PROJECT TITLE</h3>
+            
         </div>
-        <div class='project-3'>
+        <div class='hov project-3'>
+            <img src="assets/portfolioimage.jpeg">
+            
+            <h3> PROJECT TITLE</h3>
+            
         </div>
-        <div class='project-4'>
+        <div class='hov project-4'>
+            <img src="assets/portfolioimage.jpeg">
+            
+            <h3> PROJECT TITLE</h3>
+            
         </div>
         
     </section>
+            
+        </main>
+    </section>
     
+    <footer>
+        <div class="footer-info">
+            <h2>CLAIRE KATHLEEN KELSEY</h2>
+            <dl class="flexboxy">
+                <div class="footer1">
+                    <dt>EMAIL</dt>
+                    <dd>ckelsey@nd.edu</dd>
+                </div>
+
+            
+                
+                <div class="footer3">
+                    <dt>SOCIAL MEDIA</dt>
+                    <dd>
+                    <a href="https://www.linkedin.com/in/claire-kelsey-093160147/"> <img src="assets/linkedin1.png">
+                    
+                         </a>
+                        
+            
+                        <a href=https://clairekelsey.tumblr.com> <img src="assets/linkedin1.png">
+                    
+                        </a>
+                        
+                        <a href=https://www.instagram.com/clairekelseydesign/?hl> <img src="assets/linkedin1.png">
+                    
+                         </a>
+                        
+                    </dd>
+                </div>
+                
+            </dl>
+        </div>
+    </footer>
     
-      
-      </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        
+    
+
+    </script>
+     
    
 
   </body>
