@@ -4,3 +4,25 @@ body{
     font-size:16px;
     
 }
+
+body h1{
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 38px
+}
+
+body h4{
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 24px;
+    text-decoration:underline
+}
+
+body p{
+    font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+    color:black;
+}

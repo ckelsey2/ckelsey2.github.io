@@ -1,0 +1,619 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+    margin:auto;
+}
+
+.page {
+    display:flex;
+    flex-wrap:wrap;
+    margin:0 auto;
+}
+
+/*****TOP NAVIGATION BAR****/
+
+nav {
+  text-align:center;
+/*    width:100%*/
+}
+
+.nav-bar{
+    overflow: hidden;
+    background-color: #7ba5bd;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index:3
+    
+}
+
+.topnav {
+    overflow: hidden;
+background-color: #7ba5bd;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .875rem 1rem;
+    text-decoration: none;
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+/*
+.topnav a.icon {
+    color: #f2f2f2;
+    float: right;
+    display: block;
+    font-size: 1.25rem;
+}
+*/
+
+.topnav a:hover {
+    background-color: white;
+    color: #0c2340;
+}
+
+/*
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+*/
+
+/*
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+*/
+
+.topnav .icon{
+    display:none
+}
+
+/*
+.topnav.responsive a {
+    float: none;
+    display: block;
+}
+
+.main-nav a {
+    display: none;
+}
+
+.main-nav {
+        margin-top:3.5rem;
+}
+
+.main-nav.responsive {
+    position: relative;
+
+}
+
+.main-nav.responsive a {
+    float: none;
+    display: block;
+}
+*/
+
+/***HEADER***/
+
+header {
+    position: relative;
+}
+
+
+.site-title img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.site-title {
+    margin: 5rem auto 1rem auto;
+}
+
+
+/**** Main *****/
+
+
+main {
+    background-color: white;
+    width:100%
+}
+
+
+
+/**COVER PHOTO SECTION**/
+
+
+.cover-photo{
+    background-color:white;
+    margin:0 0 0 0
+    
+  
+}
+.cover-photo img{
+    width:100%
+}
+
+
+
+
+
+/*CONTENT*/
+
+
+.content{
+/*    padding:5% 5% 0 5%;*/
+    display:flex;
+    flex-direction:column;
+}
+
+
+/*PROJECT INFO*/
+
+.project-info{
+    margin: 2rem auto auto auto;
+    padding:4.5rem;
+    background-color: #b5d6d9;
+}
+
+.project-info h2{
+    padding:0 0 0 1rem;
+    font-family: acumin-pro, sans-serif;
+font-weight: 100;
+font-style: italic;
+}
+
+.project-info h1{
+    padding: 0 1rem;
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size:3rem
+}
+
+.project-text{
+    padding:1rem;
+    font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+/*IMAGES 1*/
+
+.images-1{
+    background-color: white;
+    padding:3rem;
+    width:100%
+
+}
+
+.images-1 img{
+
+    padding:1rem;
+    width:100%
+
+}
+
+/*PROJECT-TEXT 2*/
+
+.project-text-2{
+    background-color: #b5d6d9;
+    padding:4.5rem;
+    margin-bottom:2rem;
+    font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+/*IMAGES 2*/
+
+.video{
+    background-color: white;
+
+}
+
+.video iframe{
+
+    width:100%
+
+}
+
+/*PROJECT-TEXT-3*/
+
+.project-text-3{
+    margin-top:4rem;
+    background-color: #b5d6d9;
+    padding:4.5rem;
+     font-family: gill-sans-nova, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size:2rem;
+    width:100%
+}
+
+}
+
+/*IMAGES 3*/
+
+.images-3{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    padding:3rem;
+/*     width:100%*/
+
+}
+
+.images-3 img{
+
+    padding:1rem;
+    width:100%
+
+}
+
+
+
+
+
+/***OTHER FOOTER****/
+
+
+.other-footer{
+    margin-top:2rem;
+    background-color: gainsboro;
+    margin-top:2rem
+}
+
+.other-footer h1{
+    
+    padding:4.5rem 4.5rem 0 4.5rem;
+    font-family: gill-sans-nova, sans-serif;
+font-weight: 200;
+font-style: normal;
+    font-size:3rem
+}
+
+
+.other-work-images{
+    display:flex;
+    flex-direction: column;
+    padding:3rem;
+
+
+}
+
+.other-work-images img{
+
+
+    width:100%;
+    margin:.5rem;
+    border:.15rem black solid
+
+}
+
+.hov:hover {
+    opacity: 0.2;}
+
+
+
+/***FOOTER****/
+
+footer {
+    width: 100%;
+    background-color: #b5d6d9;
+    color:black
+}
+
+footer .footer-info {
+    width: 80%;
+    text-align: center;
+    padding: 5%;
+    margin: 0 auto;
+    color:black
+    
+}
+
+.footer-info h2{
+    color:black;
+    font-family: gill-sans-nova, sans-serif;
+font-weight: 200;
+font-style: normal;
+  
+}
+footer dt {
+    color: black;
+    margin-bottom: .3125rem;
+    margin-top:.5rem;
+    font-family: gill-sans-nova, sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+footer dd {
+    margin: 0 0 .25rem 0;
+    color:black;
+     font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.footer3 img{
+    width:7%;
+    
+}
+.footer3 img:hover {
+    opacity:0.5;
+    
+}
+
+
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+
+/********MEDIA QUERIES*********/
+/********MEDIA QUERIES*********/
+/********MEDIA QUERIES*********/
+/********MEDIA QUERIES*********/
+/********MEDIA QUERIES*********/
+/********MEDIA QUERIES*********/
+
+
+
+    
+    @media only screen and (max-width: 600px) {
+
+        
+  
+    .topnav a:not(:first-child){
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+    }
+
+
+}
+
+@media only screen and (min-width: 960px) {
+    .page {
+        /* 960px */
+        width: 80%;
+        margin: auto;
+        background-color:white
+    }
+
+    /*NAV BAR*/
+    
+    .nav-bar {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav {
+        width: 54rem;
+        margin: 0 auto;
+        display: flex;
+    }
+
+           
+/*HEADER*/
+        
+        
+.site-title {
+        /* 864px */
+        width: 54rem;
+        margin: 5rem auto 2rem auto;
+    }
+
+    .site-title img {
+        /* 428px */
+        width: 26.75rem;
+        display: block;
+        margin: 0;
+    }
+        
+        
+/**** Main *****/
+   
+
+    main {
+        background-color:white
+    }
+    
+    
+    /*COVERPHOTO SECTION*/
+    
+    
+.cover-photo{
+    
+    background-color:white;
+    margin:0 auto 2rem auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+/*
+
+.me-photo img{
+    width:50%;
+    margin:4rem
+}
+
+.me-text{
+    padding:20px;
+    margin: 1.5rem;
+    text-align:left
+
+}
+.me-text h2{
+    padding:30px;
+    border-left:1px solid black;
+    border-top:none
+    
+}
+*/
+
+    
+
+
+    /***CONTENT SECTION***/
+
+    
+body{
+    background-color:white;
+    margin:0;
+}
+    
+
+
+.page {
+    display:flex;
+    width:100%;
+    flex-wrap:wrap;
+    margin:0;
+}
+    .content{
+/*    padding:5% 5% 0 5%;*/
+/*        margin:5rem;*/
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+        flex-basis: auto}
+            
+.project-text{
+           margin-left:4rem;
+    padding-top: 0
+        }
+    
+    .project-info{
+    display:flex;
+    flex-direction:row;
+       
+}
+    /****IMAGES-1***/
+    
+    
+    .images-1{
+    
+        width:120%;
+        align-content: center
+        
+    }
+
+    
+    #images-images-1{
+        width:100%
+    }
+    
+    
+    
+    
+    .images-3{
+        width:100%;
+        margin:0 20rem 0 20rem
+        
+    }
+    
+/*VIDEO*/
+    .video {
+    background-color: white;
+        margin:3.5rem;
+        width:100%
+}
+
+.video iframe{
+    height: 80vh;
+
+}
+    
+     /****OTHER FOOTER***/
+    
+    .other-footer{
+        margin-top:2rem
+    }
+    
+     .other-footer h1{
+        margin:0 auto auto 0
+    }
+    
+    .other-work-images{
+    display:flex;
+    flex-direction: row;
+        align-content: space-between
+
+    }
+    .project-1{
+        margin: 0 2rem 0 2rem;
+            width:30%
+    }
+    
+    
+    .project-2{
+        margin:0 2rem 0 2rem;
+        width:30%
+    }
+    
+    .project-3{
+        margin:0 2rem 0 2rem;
+        width:30%
+    }
+    
+    
+    
+    /****FOOTER***/
+    
+/*
+footer {
+    width: 100%;
+}
+*/
+
+footer .footer-info {
+    color: blue;
+    width: 80%;
+    text-align: left;
+    padding: 5%;
+    margin: 0 auto;
+}
+    footer dd{
+        width:80%
+    }   
+    
+}
