@@ -163,7 +163,7 @@ main {
 
 .project-info{
     margin: 2rem 0 0rem 0;
-    padding:5rem;
+    padding:2rem;
     background-color: gainsboro;
     display:flex;
     flex-direction: column
@@ -178,7 +178,7 @@ main {
 .project-info h2{
     padding:2rem 0 0 1rem;
     font-family: acumin-pro, sans-serif;
-font-weight: 100;
+font-size: 1.25rem;
 font-style: italic;
     
 }
@@ -385,6 +385,9 @@ body{
     flex-wrap:wrap;
 }
     
+    .project-info{
+        padding:5rem; 
+    }
 /*
     .content{
     padding:5% 5% 0 5%;

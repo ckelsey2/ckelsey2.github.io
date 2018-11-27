@@ -170,24 +170,27 @@ main {
 
 .project-info{
     margin: 2rem auto auto auto;
-    padding:4.5rem;
+    padding:1.5rem;
     background-color: #b5d6d9;
 }
 
 .project-info h2{
     padding:0 0 0 1rem;
     font-family: acumin-pro, sans-serif;
-font-weight: 100;
+font-size: 1.25rem;
 font-style: italic;
 }
+
+
 
 .project-info h1{
     padding: 0 1rem;
     font-family: gill-sans-nova, sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size:3rem
+    font-size:2rem
 }
+
 
 .project-text{
     padding:1rem;
@@ -218,7 +221,7 @@ font-style: normal;
 
 .project-text-2{
     background-color: #b5d6d9;
-    padding:4.5rem;
+    padding:1.5rem;
     font-family: acumin-pro, sans-serif;
 font-weight: 400;
 font-style: normal;
@@ -247,11 +250,11 @@ font-style: normal;
 
 .project-text-3{
     background-color: #b5d6d9;
-    padding:4.5rem;
+    padding:1.5rem;
      font-family: gill-sans-nova, sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size:2rem;
+    font-size:1.25rem;
     width:100%
 }
 
@@ -529,11 +532,19 @@ body{
     padding-top: 0
         }
     
-    .project-info{
+   .project-info{
     display:flex;
     flex-direction:row;
+        padding:4.5rem
        
 }
+    .project-text-2{
+        padding:4.5rem
+    }
+    
+    .project-text-3{
+        padding:4.5rem
+    }
     /****IMAGES-1***/
     
     
